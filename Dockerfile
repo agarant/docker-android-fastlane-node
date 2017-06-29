@@ -15,6 +15,8 @@ RUN apt-get update && apt-get -y install ruby-dev
 ################################################################################################
 ###
 ### Download ANDROID SDK
+### Inspired from : - https://github.com/cakuki/docker-alpine-android-sdk
+###									- https://hub.docker.com/r/thedrhax/android-sdk/~/dockerfile/
 ###
 ENV SDK_VERSION     25.2.3
 ENV ANDROID_HOME    /opt/android-sdk-linux
