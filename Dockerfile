@@ -18,7 +18,7 @@ RUN apt-get update && apt-get -y install ruby-dev
 ### Inspired from : - https://github.com/cakuki/docker-alpine-android-sdk
 ###									- https://hub.docker.com/r/thedrhax/android-sdk/~/dockerfile/
 ###
-ENV SDK_VERSION     25.2.3
+ENV SDK_VERSION     25.0.2
 ENV ANDROID_HOME    /opt/android-sdk-linux
 
 RUN apt-get -y install curl
